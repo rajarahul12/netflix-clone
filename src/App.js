@@ -1,10 +1,10 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <h1>React !!!</h1>
+    <div className="app">
+      <h1>Netflix Clone</h1>
     </div>
   );
 }
