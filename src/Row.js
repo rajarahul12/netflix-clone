@@ -11,7 +11,6 @@ function Row({ title, fetchUrl, isLargeRow }) {
   const [trailerUrl, setTrailerUrl] = useState("");
 
   useEffect(() => {
-    // if [], run once (and only once) when the row loads
     async function fetchData() {
       const request = await axios.get(fetchUrl);
       setMovies(request.data.results);
